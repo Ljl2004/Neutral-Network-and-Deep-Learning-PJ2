@@ -1,0 +1,92 @@
+{
+  "VGG-A": {
+    "best_va": 0.565,
+    "best_ep": 7,
+    "final_ta": 0.5687,
+    "final_va": 0.565
+  },
+  "VGG-A+BN": {
+    "best_va": 0.6848,
+    "best_ep": 7,
+    "final_ta": 0.7158,
+    "final_va": 0.6848
+  },
+  "CNN-Small (305,258p)": {
+    "best_va": 0.5776,
+    "best_ep": 7,
+    "final_ta": 0.5601,
+    "final_va": 0.5776
+  },
+  "CNN-Medium (1,214,666p)": {
+    "best_va": 0.6264,
+    "best_ep": 7,
+    "final_ta": 0.6183,
+    "final_va": 0.6264
+  },
+  "CNN-Large (4,955,082p)": {
+    "best_va": 0.6895,
+    "best_ep": 7,
+    "final_ta": 0.7039,
+    "final_va": 0.6895
+  },
+  "ResNet-Medium (2,843,466p)": {
+    "best_va": 0.5966,
+    "best_ep": 7,
+    "final_ta": 0.5946,
+    "final_va": 0.5966
+  },
+  "CE (no reg)": {
+    "best_va": 0.6325,
+    "best_ep": 7,
+    "final_ta": 0.6273,
+    "final_va": 0.6325
+  },
+  "CE+L2(5e-4)": {
+    "best_va": 0.6301,
+    "best_ep": 7,
+    "final_ta": 0.6223,
+    "final_va": 0.6301
+  },
+  "CE+L2(1e-3)": {
+    "best_va": 0.6302,
+    "best_ep": 7,
+    "final_ta": 0.6236,
+    "final_va": 0.6302
+  },
+  "CE+LabelSmooth": {
+    "best_va": 0.6214,
+    "best_ep": 7,
+    "final_ta": 0.6105,
+    "final_va": 0.6214
+  },
+  "Activation=relu": {
+    "best_va": 0.6301,
+    "best_ep": 7,
+    "final_ta": 0.6223,
+    "final_va": 0.6301
+  },
+  "Activation=leaky_relu": {
+    "best_va": 0.6248,
+    "best_ep": 7,
+    "final_ta": 0.6202,
+    "final_va": 0.6248
+  },
+  "Optimizer=SGD+Momentum": {
+    "best_va": 0.6301,
+    "best_ep": 7,
+    "final_ta": 0.6223,
+    "final_va": 0.6301
+  },
+  "Optimizer=Adam": {
+    "best_va": 0.7047,
+    "best_ep": 7,
+    "final_ta": 0.7129,
+    "final_va": 0.7047
+  },
+  "Optimizer=AdamW": {
+    "best_va": 0.698,
+    "best_ep": 7,
+    "final_ta": 0.7054,
+    "final_va": 0.698
+  }
+}

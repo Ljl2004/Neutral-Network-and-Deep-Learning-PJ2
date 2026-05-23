@@ -1,0 +1,31 @@
+# Model weights
+*.pth
+
+# Dataset
+*.tar.gz
+*.tgz
+cifar-10-batches-py/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large experiment output (keep figures)
+reports/models/
+
+# Personal settings
+.claude/
+
+# The report (user will upload manually later)
+reports/PJ2_Report.md
+generate_report.py
